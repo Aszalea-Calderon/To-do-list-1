@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="clear">
+        <i class="fa fa-refresh"></i><!--This is how we refresh and clear things-->
+        <div id="date"></div><!--This will show the date-->
+      </div>
+    </div>
+    <div class="content">
+      <ul id="list">
+          <li class="item">
+            <i class="fa fa-circle-thin complete"></i><!--This is the check off button-->
+            <p class="test">Drink Coffee</p><!--The way to fill in-->
+            <i class="fa fa-trash-o delete"></i><!--This is the delete-->
+          </li>
+      </ul>
+      <div class="add-item">
+          <i class="fa fa-plus-circle"></i>
+          <input type="text" id="input" placeholder="Add a to-do">
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="javascript.js"></script>
+</html>
